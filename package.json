@@ -1,0 +1,19 @@
+{
+  "name": "cn1-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jdeploy": "^1.0.6",
+    "shelljs": "^0.7.5"
+  },
+  "bin": {"cn1-deploy": "jdeploy-bundle/jdeploy.js"},
+  "preferGlobal": true,
+  "files": ["jdeploy-bundle"],
+  "jdeploy" : {
+      "postCopyTarget" : "after-jdeploy-copy-files"
+  }
+}

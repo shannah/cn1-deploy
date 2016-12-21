@@ -1,0 +1,5 @@
+dist
+jdeploy-bundle
+node_modules
+nbproject/private
+build
