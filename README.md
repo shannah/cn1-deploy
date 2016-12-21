@@ -1,6 +1,11 @@
 # cn1-deploy
 CLI tool for deploying Codename One applications
 
+## Requirements
+
+1. JDK 8 or higher
+2. NodeJS 4.2 or higher
+
 ## Installation
 
 ~~~~
